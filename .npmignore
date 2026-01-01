@@ -1,0 +1,29 @@
+# Development files
+tests/
+.github/
+images/
+
+# Documentation (keep main README.md)
+README-original.md
+CLAUDE.md
+
+# Development scripts
+test-kiro.js
+claude-aws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.history/
+
+# Logs
+*.log
+log.txt
+
+# Environment
+.env
+.env.local

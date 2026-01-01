@@ -1,0 +1,49 @@
+{
+  "name": "kiro-claude-proxy",
+  "version": "1.3.0",
+  "description": "Proxy server to use Kiro's Claude models with Claude Code CLI",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "kiro-claude-proxy": "bin/cli.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md",
+    "DOCUMENTATION.md",
+    "COMMANDS.md"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "claude",
+    "anthropic",
+    "kiro",
+    "proxy",
+    "aws",
+    "codewhisperer",
+    "ai",
+    "llm"
+  ],
+  "author": "9zq3n",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9zq3n/kiro-claude-proxy.git"
+  },
+  "homepage": "https://github.com/9zq3n/kiro-claude-proxy#readme",
+  "bugs": {
+    "url": "https://github.com/9zq3n/kiro-claude-proxy/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
